@@ -28,7 +28,7 @@ Pod::Spec.new do |spec|
   Seller is a small and lightweight Swift framework that allows to monitor
                    DESC
 
-  spec.homepage     = "https://appcoda.com"
+  spec.homepage     = "https://github.com/GopalHousing22/Seller.git"
   # spec.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
 
 
