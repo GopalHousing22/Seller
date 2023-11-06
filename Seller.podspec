@@ -82,7 +82,7 @@ Pod::Spec.new do |spec|
   #
 
   # spec.source       = { :git => "http://EXAMPLE/Seller.git", :tag => "#{spec.version}" }
-  spec.source       = { :git => "https://github.com/mayank50444/EDGE-POD.git" }
+  spec.source       = { :git => "https://github.com/GopalHousing22/Seller.git" }
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -92,7 +92,7 @@ Pod::Spec.new do |spec|
   #  For header files it will include any header in the folder.
   #  Not including the public_header_files will make all headers public.
   #
-  spec.source_files  = "EDGE/**/*.{h,m,swift}"
+  spec.source_files  = "Seller/**/*.{h,m,swift}"
   # spec.exclude_files = "Classes/Exclude"
 
   # spec.public_header_files = "Classes/**/*.h"
