@@ -12,6 +12,6 @@ Pod::Spec.new do |spec|
   spec.platform     = :ios, "13.0"
   spec.ios.deployment_target = "13.0"
   spec.source       = { :git => "https://github.com/GopalHousing22/Seller.git" }
-  spec.source_files  = "Seller", "Seller/Source/*.{swift}"
+  spec.source_files  = "Seller", "Seller/**"
 
 end
