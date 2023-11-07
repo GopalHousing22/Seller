@@ -20,6 +20,6 @@ Pod::Spec.new do |spec|
   # 'Edge' => ['Edge.xcodeproj/*']
 # }
   spec.source       = { :git => "https://github.com/GopalHousing22/Seller.git" }
-  spec.source_files  = "Seller", "Seller/**"
+  # spec.source_files  = "Seller", "Seller/**"
 
 end
