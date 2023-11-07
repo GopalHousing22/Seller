@@ -11,6 +11,14 @@ Pod::Spec.new do |spec|
   spec.author             = { "Gopal" => "gopal@housing.com" }
   spec.platform     = :ios, "13.0"
   spec.ios.deployment_target = "13.0"
+  spec.source_files = [
+    "Seller/Classes/**/*.{h,m}",
+    "Seller/Source/*.swift"
+  ]
+  spec.preserve_paths = 'Seller.xcodeproj/*'
+  # spec.resource_bundles = {
+  # 'Edge' => ['Edge.xcodeproj/*']
+# }
   spec.source       = { :git => "https://github.com/GopalHousing22/Seller.git" }
   spec.source_files  = "Seller", "Seller/**"
 
